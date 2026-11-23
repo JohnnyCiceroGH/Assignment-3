@@ -1,0 +1,3 @@
+LogFileName=HW3Output.txt
+KeyValueDelimiter=:
+DelimiterBetweenOverAndVehicle=,

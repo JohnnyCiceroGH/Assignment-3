@@ -1,0 +1,17 @@
+Alan Turing,1912:c,GASOLINE,4
+Grace Hopper,1906:b,GASOLINE,100
+
+:b,,
+d,FUELOIL,100
+John von Neumann,1903:c,FUELOIL,6
+Ken Thompson:b,FUELOIL, 25
+Ada Lovelace,1815:c,DEISEL,6
+Tim Berners-Lee,1955:b,ELECTRICITY,300
+Ken Thompson:,1943:b,FUELOIL,300 c,GASOLINE,9
+Ken Thompson,1943:c,GASOLINE,-98
+James Gosling,1955:c,GASOLINE,20o
+James Gosling,1955:b,FUELOIL,81902
+Guido van Rossum,1956:c,ELECTRICITY,10
+Bjarne Stroustrup,1950:c,FUELOIL,9
+Dennis Ritchie,1941:b,ELECTRICITY,42
+Brian Kernighan,1942:c,GASOLINE,4

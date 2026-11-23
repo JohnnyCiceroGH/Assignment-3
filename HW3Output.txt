@@ -1,0 +1,62 @@
+Properties loaded successfully.
+
+Invalid line discarded: 
+Reason: Incorrect number of sections.
+Invalid line discarded: :b,,
+Reason: Incorrect number of fields.
+Invalid line discarded: d,FUELOIL,100
+Reason: Incorrect number of sections.
+Invalid line discarded: Ken Thompson:b,FUELOIL, 25
+Reason: Incorrect number of fields.
+Invalid line discarded: Ken Thompson:,1943:b,FUELOIL,300 c,GASOLINE,9
+Reason: Incorrect number of sections.
+Invalid line discarded: Ken Thompson,1943:c,GASOLINE,-98
+Reason: Invalid engine size: -98. Engine size must be between 1 and 199.
+Invalid line discarded: James Gosling,1955:c,GASOLINE,20o
+Reason: For input string: "20o"
+Invalid line discarded: James Gosling,1955:b,FUELOIL,81902
+Reason: Invalid boat length: 81902. Boat length must be between 1 and 1300.
+Number of mappings: 9
+
+Owner and Vehicle Mappings:
+Owner- name=Tim Berners-Lee, yearOfBirth=1955- --> Boat [powerSource=ELECTRICITY, boatLength=300]
+Owner- name=Alan Turing, yearOfBirth=1912- --> Car [powerSource=GASOLINE, engineSize=4]
+Owner- name=Guido van Rossum, yearOfBirth=1956- --> Car [powerSource=ELECTRICITY, engineSize=10]
+Owner- name=Dennis Ritchie, yearOfBirth=1941- --> Boat [powerSource=ELECTRICITY, boatLength=42]
+Owner- name=John von Neumann, yearOfBirth=1903- --> Car [powerSource=FUELOIL, engineSize=6]
+Owner- name=Ada Lovelace, yearOfBirth=1815- --> Car [powerSource=DEISEL, engineSize=6]
+Owner- name=Grace Hopper, yearOfBirth=1906- --> Boat [powerSource=GASOLINE, boatLength=100]
+Owner- name=Brian Kernighan, yearOfBirth=1942- --> Car [powerSource=GASOLINE, engineSize=4]
+Owner- name=Bjarne Stroustrup, yearOfBirth=1950- --> Car [powerSource=FUELOIL, engineSize=9]
+
+Testing an owner in the HashMap:
+containsKey: true
+remove: Car [powerSource=GASOLINE, engineSize=4]
+
+Mappings after removal:
+Owner- name=Tim Berners-Lee, yearOfBirth=1955- --> Boat [powerSource=ELECTRICITY, boatLength=300]
+Owner- name=Guido van Rossum, yearOfBirth=1956- --> Car [powerSource=ELECTRICITY, engineSize=10]
+Owner- name=Dennis Ritchie, yearOfBirth=1941- --> Boat [powerSource=ELECTRICITY, boatLength=42]
+Owner- name=John von Neumann, yearOfBirth=1903- --> Car [powerSource=FUELOIL, engineSize=6]
+Owner- name=Ada Lovelace, yearOfBirth=1815- --> Car [powerSource=DEISEL, engineSize=6]
+Owner- name=Grace Hopper, yearOfBirth=1906- --> Boat [powerSource=GASOLINE, boatLength=100]
+Owner- name=Brian Kernighan, yearOfBirth=1942- --> Car [powerSource=GASOLINE, engineSize=4]
+Owner- name=Bjarne Stroustrup, yearOfBirth=1950- --> Car [powerSource=FUELOIL, engineSize=9]
+
+Testing an owner NOT in the HashMap:
+containsKey: false
+remove: null
+
+Vehicle equals and hashCode tests:
+Cars equal: true
+Car hashCodes equal: true
+Different cars equal: false
+Different car hashCodes: true
+Boats equal: true
+Boat hashCodes equal: true
+Different boats equal: false
+Different boat hashCodes: true
+Planes equal: true
+Plane hashCodes equal: true
+Different planes equal: false
+Different plane hashCodes: true
